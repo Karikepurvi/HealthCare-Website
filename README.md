@@ -1,20 +1,20 @@
-# 🏥 HealthCare+ Website
+#  HealthCare+ Website
 
 A beautiful, secure healthcare website built with React, Node.js, and MongoDB featuring JWT authentication, role-based access, and wellness tracking.
 
-## ✨ Features
+##  Features
 
-- 🔐 **Secure Authentication** - JWT-based login/registration with bcrypt password hashing
-- 👥 **Role-Based Access** - Separate portals for Patients and Healthcare Providers
-- 📊 **Patient Dashboard** - Wellness tracking, health tips, and activity monitoring
-- 📅 **Appointment Booking** - Easy online appointment scheduling
-- 💬 **Messaging System** - Communication between patients and doctors
-- 🎯 **Wellness Goals** - Track steps, active time, water intake, and sleep
-- 💊 **Preventive Care** - Automated health reminders
-- ⚛️ **Modern UI** - Beautiful gradient design with smooth animations
-- 🗄️ **MongoDB Database** - Persistent storage for users and appointments
+-  **Secure Authentication** - JWT-based login/registration with bcrypt password hashing
+-  **Role-Based Access** - Separate portals for Patients and Healthcare Providers
+-  **Patient Dashboard** - Wellness tracking, health tips, and activity monitoring
+-  **Appointment Booking** - Easy online appointment scheduling
+-  **Messaging System** - Communication between patients and doctors
+-  **Wellness Goals** - Track steps, active time, water intake, and sleep
+-  **Preventive Care** - Automated health reminders
+-  **Modern UI** - Beautiful gradient design with smooth animations
+-  **MongoDB Database** - Persistent storage for users and appointments
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Docker (Recommended)
 ```bash
@@ -46,7 +46,7 @@ npm start
 ```
 Frontend runs on **http://localhost:3001** (opens automatically)
 
-## 👨‍⚕️ Pre-configured Doctors
+##  Pre-configured Doctors
 
 | Name | Email | Password |
 |------|-------|----------|
@@ -55,7 +55,7 @@ Frontend runs on **http://localhost:3001** (opens automatically)
 | Dr Purvi | purvi@healthcare.com | purvi123 |
 | Dr Akshaya | akshaya@healthcare.com | akshaya123 |
 
-## 👥 Dummy Patients (for testing)
+##  Dummy Patients (for testing)
 
 | Name | Email | Password |
 |------|-------|----------|
@@ -82,41 +82,41 @@ Frontend runs on **http://localhost:3001** (opens automatically)
 3. Enter your details (password min 6 chars)
 4. Access personalized wellness dashboard
 
-## 🎨 Beautiful Design Features
+##  Beautiful Design Features
 
 ### Login Page
-- ✨ Animated gradient background with floating elements
-- 🎭 Smooth role selector with hover effects
-- 💫 Glassmorphism info cards
-- 🌊 Ripple effect on buttons
-- 📱 Fully responsive design
+-  Animated gradient background with floating elements
+-  Smooth role selector with hover effects
+-  Glassmorphism info cards
+-  Ripple effect on buttons
+-  Fully responsive design
 
 ### Patient Dashboard
-- 📊 Real-time wellness statistics
-- 🎯 Progress bars for health goals
-- 💡 Daily health tips
-- 🔔 Preventive care reminders
-- 👤 Profile management
-- 💬 Doctor messaging
+-  Real-time wellness statistics
+-  Progress bars for health goals
+-  Daily health tips
+-  Preventive care reminders
+-  Profile management
+-  Doctor messaging
 
 ### Home Page
-- 🏥 Service showcase
-- 📅 Appointment booking form
-- 📞 Contact information
-- 🎨 Modern card-based layout
+-  Service showcase
+-  Appointment booking form
+-  Contact information
+-  Modern card-based layout
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ **Password Hashing** - bcrypt with 10 salt rounds
-- ✅ **JWT Tokens** - 24-hour expiration
-- ✅ **Protected Routes** - Middleware authentication
-- ✅ **Role-Based Authorization** - Patient/Provider separation
-- ✅ **Secure Sessions** - Token verification on each request
-- ✅ **Environment Variables** - Secrets in .env file
-- ✅ **CORS Enabled** - Cross-origin resource sharing
-- ✅ **Input Validation** - Server-side validation
+-  **Password Hashing** - bcrypt with 10 salt rounds
+-  **JWT Tokens** - 24-hour expiration
+-  **Protected Routes** - Middleware authentication
+-  **Role-Based Authorization** - Patient/Provider separation
+-  **Secure Sessions** - Token verification on each request
+-  **Environment Variables** - Secrets in .env file
+-  **CORS Enabled** - Cross-origin resource sharing
+-  **Input Validation** - Server-side validation
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 HealthCare/
@@ -144,7 +144,7 @@ HealthCare/
     └── package.json
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React** 18.2.0 - UI library
@@ -161,7 +161,7 @@ HealthCare/
 - **bcryptjs** 2.4.3 - Password hashing
 - **dotenv** 16.3.1 - Environment variables
 
-## 🔑 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -177,7 +177,7 @@ HealthCare/
 ### Doctors
 - `GET /api/doctors` - Get all healthcare providers
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 Create `.env` in Backend directory:
 ```env
@@ -187,9 +187,9 @@ PORT=3000
 MONGODB_URI=mongodb://localhost:27017/healthcare
 ```
 
-⚠️ **IMPORTANT**: Change `JWT_SECRET` in production!
+ **IMPORTANT**: Change `JWT_SECRET` in production!
 
-## 💾 Database
+## Database
 
 **MongoDB Collections:**
 - `users` - Stores patients and healthcare providers
@@ -200,7 +200,7 @@ MONGODB_URI=mongodb://localhost:27017/healthcare
 - Stored in MongoDB with hashed passwords
 - Persistent across server restarts
 
-## 🎯 User Flows
+##  User Flows
 
 ### Patient Flow
 1. Register/Login as Patient
@@ -217,7 +217,7 @@ MONGODB_URI=mongodb://localhost:27017/healthcare
 4. Manage appointment requests
 5. View dashboard analytics
 
-## 🌟 Design Highlights
+##  Design Highlights
 
 - **Gradient Backgrounds** - Purple to pink gradients
 - **Smooth Animations** - Slide, fade, float effects
@@ -228,13 +228,13 @@ MONGODB_URI=mongodb://localhost:27017/healthcare
 - **Modern Typography** - Clean, readable fonts
 - **Color Palette** - Professional healthcare theme
 
-## 📱 Responsive Design
+##  Responsive Design
 
 - Desktop: Full two-column layout
 - Tablet: Adaptive grid system
 - Mobile: Single column, touch-friendly
 
-## 🚦 Getting Started (First Time)
+##  Getting Started (First Time)
 
 ```bash
 # Clone or navigate to project
@@ -257,13 +257,13 @@ cd Frontend
 npm start
 ```
 
-## 🎓 Test Accounts
+##  Test Accounts
 
 **Try logging in as:**
 - Dr Rishi Cheekatla (Provider)
 - Create your own patient account
 
-## 📝 Notes
+##  Notes
 
 - Backend auto-seeds 4 doctors on startup
 - JWT tokens expire after 24 hours
@@ -272,7 +272,7 @@ npm start
 - Patients see only their appointments
 - Providers see all appointments
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Database integration (MongoDB/PostgreSQL)
 - [ ] Real-time chat with Socket.io
@@ -287,6 +287,6 @@ npm start
 
 **Built with ❤️ for better healthcare access**
 
-🌐 **Live URLs:**
+ **Live URLs:**
 - Frontend: http://localhost:3001
 - Backend API: http://localhost:3000
