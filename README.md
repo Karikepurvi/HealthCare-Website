@@ -1,11 +1,11 @@
-# 🏥 HealthCare+ Website
+#  HealthCare+ Website
 
 A beautiful, secure healthcare website built with React, Node.js, and MongoDB featuring JWT authentication, role-based access, and wellness tracking.
 
 ## ✨ Features
 
 - 🔐 **Secure Authentication** - JWT-based login/registration with bcrypt password hashing
-- 👥 **Role-Based Access** - Separate portals for Patients and Healthcare Providers
+-  **Role-Based Access** - Separate portals for Patients and Healthcare Providers
 - 📊 **Patient Dashboard** - Wellness tracking, health tips, and activity monitoring
 - 📅 **Appointment Booking** - Easy online appointment scheduling
 - 💬 **Messaging System** - Communication between patients and doctors
